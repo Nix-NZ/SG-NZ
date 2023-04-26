@@ -233,7 +233,7 @@ departmentSelect.addEventListener('change', (event) => {
 
         `;
 
-    } else if (department === 'Acting Department') {
+    } else if (department === 'Acting') {
         roleSelect.innerHTML = `
         <option value="">Select Role</option>
     <option value="Actor">Actor</option>
