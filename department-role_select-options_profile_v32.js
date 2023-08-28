@@ -228,7 +228,7 @@ departmentSelect3.addEventListener('change', (event) => {
         `;
 
     } else if (department === 'Acting') {
-        roleSelect3.innerHTML = `
+        roleSelect.innerHTML = `
         <option value="">Select Role</option>
     <option value="Actor">Actor</option>
 <option value="Extra">Extra</option>

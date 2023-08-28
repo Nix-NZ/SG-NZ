@@ -228,7 +228,7 @@ departmentSelect4.addEventListener('change', (event) => {
         `;
 
     } else if (department === 'Acting') {
-        roleSelect4.innerHTML = `
+        roleSelect.innerHTML = `
         <option value="">Select Role</option>
     <option value="Actor">Actor</option>
 <option value="Extra">Extra</option>
@@ -244,6 +244,7 @@ departmentSelect4.addEventListener('change', (event) => {
 <option value="Supervising Mountain Rigger">Supervising Mountain Rigger</option>
 
         `;
+
 
     } else if (department === 'VFX') {
         roleSelect4.innerHTML = `
